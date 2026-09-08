@@ -1,20 +1,34 @@
-# lumi-discord-bot
-Discord music bot with chat, mini-games, and Korean word-chain dictionary validation
-# Lumi Discord Bot 🌙
+# 🌙 Lumi Discord Bot
 
-Lumi는 개인용 Discord 음악/대화 봇입니다.
+Lumi는 개인 Discord 서버에서 사용하는 음악 · 대화 · 미니게임 봇입니다.
 
-## 주요 기능
-- Discord 음악 재생
-- MusicWidget 원격 제어
-- AI 대화
-- 호감도 시스템
-- 미니게임
-- 끝말잇기
+## ✨ 주요 기능
 
-## 우리말샘 Open API 사용 목적
-우리말샘 Open API는 끝말잇기 미니게임에서
-사용자가 입력한 한국어 단어가 실제 사전에 존재하는지 확인하고,
-루미가 이어갈 수 있는 단어를 찾는 용도로 사용합니다.
+- 🎵 Discord 음악 재생
+- 🖥️ MusicWidget 원격 제어
+- 💬 `루미야 ~~` 자연 대화
+- 🧠 사용자 기억 기능
+- 🌙 친구 호감도 시스템
+- 🎮 미니게임
+  - 끝말잇기
+  - 업다운
+  - 퀴즈
+  - 가위바위보
 
-개인용 Discord 서버에서 사용합니다.
+## 📚 우리말샘 Open API 사용 목적
+
+우리말샘 Open API는 Lumi의 **끝말잇기 미니게임**에서 사용합니다.
+
+사용 목적은 다음과 같습니다.
+
+- 사용자가 입력한 한국어 단어가 실제 사전에 존재하는지 확인
+- 루미가 이어갈 수 있는 한국어 단어 검색
+- 끝말잇기 진행 시 단어 검증 정확도 향상
+- 두음법칙을 적용한 자연스러운 게임 진행
+
+이 봇은 개인 Discord 서버에서 사용합니다.
+
+## 🔒 보안
+
+API Key, Discord Bot Token, 환경설정 파일 `.env` 등의 민감한 정보는
+공개 저장소에 업로드하지 않습니다.
